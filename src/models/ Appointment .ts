@@ -14,9 +14,6 @@ class Appointment {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @Column()
-  userId: string;
-
   @Column({ name: 'provider_id' })
   providerId: string;
 
